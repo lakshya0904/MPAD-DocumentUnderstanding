@@ -1,7 +1,7 @@
 # MPAD-DocumentUnderstanding
 This repository contains implementation of paper "Message Passing Attention Networks for Document Understanding" as part of my coursewrok BITS F312 - Neural Networks and Fuzzy Logic at BITS Pilani.
 
-IMPLEMENTATION EXPECTATION
+## IMPLEMENTATION EXPECTATION
   1. Reproduce results of MPAD and any one of its variants on one topic
   modelling dataset and one binary sentiment analysis dataset and one
   multi-class sentiment analysis dataset. (total 2 models * 3
@@ -30,11 +30,10 @@ The three datasets selected are:
   tab_trec_test: Contains test data
 
 Drive link to datasets:
-https://drive.google.com/drive/folders/1x8ZKWl3JQl687d5Zg3Lf4Kfi-IRgkaPA?u
-sp=sharing
+https://drive.google.com/drive/folders/1x8ZKWl3JQl687d5Zg3Lf4Kfi-IRgkaPA?usp=sharing
 
 
-FILE STRUCTURE
+## FILE STRUCTURE
 1. MPAD(mpad folder contains the details regarding this).
   ● main_cross_val.py => Main function using k-fold cross validation for
   final evaluation. This is used for Polarity dataset only.
@@ -68,8 +67,12 @@ regarding this).
   ● models.py => Main Pytorch model used for training & testing.
   
   
-EXECUTION
+## EXECUTION
   Execution Commands can be found from here (also in colab file provided,
   Execution.ipynb )
-  https://colab.research.google.com/drive/1WxridjRsmlrwULAXRF7HXBSHd6l4EjKK?
-  usp=sharing
+  https://colab.research.google.com/drive/1WxridjRsmlrwULAXRF7HXBSHd6l4EjKK?usp=sharing
+
+
+## REFERENCES
+  ● Message Passing Attention Networks for Document Understanding
+  ● https://github.com/giannisnik/mpad
