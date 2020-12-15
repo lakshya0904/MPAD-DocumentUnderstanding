@@ -29,8 +29,7 @@ The three datasets selected are:
   graph representation to be done at same time)
   tab_trec_test: Contains test data
 
-Drive link to datasets:
-https://drive.google.com/drive/folders/1x8ZKWl3JQl687d5Zg3Lf4Kfi-IRgkaPA?usp=sharing
+Drive link to datasets is [here](https://drive.google.com/drive/folders/1x8ZKWl3JQl687d5Zg3Lf4Kfi-IRgkaPA?usp=sharing)
 
 
 ## FILE STRUCTURE
@@ -68,11 +67,11 @@ regarding this).
   
   
 ## EXECUTION
-  Execution Commands can be found from here (also in colab file provided,
+  Execution Commands can be found from [here](https://colab.research.google.com/drive/1WxridjRsmlrwULAXRF7HXBSHd6l4EjKK?usp=sharing) (also in colab file provided,
   Execution.ipynb )
-  https://colab.research.google.com/drive/1WxridjRsmlrwULAXRF7HXBSHd6l4EjKK?usp=sharing
+  
 
 
 ## REFERENCES
-  ● Message Passing Attention Networks for Document Understanding
-  ● https://github.com/giannisnik/mpad
+  ● [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
+  ● Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
