@@ -26,6 +26,7 @@ Drive link to datasets is [here](https://drive.google.com/drive/folders/1x8ZKWl3
 
 ## File Structure
 1. MPAD(mpad folder contains the details regarding this).
+Markup:
   ● main_cross_val.py => Main function using k-fold cross validation for final evaluation. This is used for Polarity dataset only.
   ● main_test.py => Main function using testing datasets for final evaluation.
   ● utils.py => Contains all utility functions. Graphical representation functions are also present here.
@@ -35,6 +36,7 @@ Drive link to datasets is [here](https://drive.google.com/drive/folders/1x8ZKWl3
 
 2. Hierarchical MPAD(hierarchial_mpad folder contains the details
 regarding this).
+Markup:
   ● hmain_cross_val.py => Main function using k-fold cross validation for final evaluation. This is used for Polarity dataset only.
   ● hmain_test.py => Main function using testing datasets for final evaluation.
   ● hutils.py => Contains all utility functions. Graphical representation functions are also present here. This is to be used for hmain_cross_val.py. Utility functions for main cross validation and test differ slightly.
@@ -45,11 +47,12 @@ regarding this).
   
   
 ## Execution
-  Execution Commands can be found from [here](https://colab.research.google.com/drive/1WxridjRsmlrwULAXRF7HXBSHd6l4EjKK?usp=sharing) (also in colab file provided,
+  Execution Commands can be found [here](https://colab.research.google.com/drive/1WxridjRsmlrwULAXRF7HXBSHd6l4EjKK?usp=sharing) (also in colab file provided,
   Execution.ipynb )
   
 
 
 ## REFERENCES
-  ● [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
-  ● Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
+Markup:
+  * [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
+  * Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
