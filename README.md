@@ -1,4 +1,4 @@
-# MPAD-DocumentUnderstanding
+# MPAD-Document Understanding
 This repository contains implementation of paper "Message Passing Attention Networks for Document Understanding" as part of my coursewrok BITS F312 - Neural Networks and Fuzzy Logic at BITS Pilani.
 
 ## Implementation Expectation
@@ -27,23 +27,23 @@ Drive link to datasets is [here](https://drive.google.com/drive/folders/1x8ZKWl3
 ## File Structure
 1. MPAD(mpad folder contains the details regarding this).
 Markup:
-  * main_cross_val.py => Main function using k-fold cross validation for final evaluation. This is used for Polarity dataset only.
-  * main_test.py => Main function using testing datasets for final evaluation.
-  * utils.py => Contains all utility functions. Graphical representation functions are also present here.
-  * mlp.py => Pytorch model for Multi-layer perceptron used in AGGREGATE phase.
-  * layers.py => Pytorch model for attention mechanism and Message passing mechanism (to be used in models.py)
-  * models.py => Main Pytorch model used for training & testing.
+    * main_cross_val.py => Main function using k-fold cross validation for final evaluation. This is used for Polarity dataset only.
+    * main_test.py => Main function using testing datasets for final evaluation.
+    * utils.py => Contains all utility functions. Graphical representation functions are also present here.
+    * mlp.py => Pytorch model for Multi-layer perceptron used in AGGREGATE phase.
+    * layers.py => Pytorch model for attention mechanism and Message passing mechanism (to be used in models.py)
+    * models.py => Main Pytorch model used for training & testing.
 
 2. Hierarchical MPAD(hierarchial_mpad folder contains the details
 regarding this).
 Markup:
-  * hmain_cross_val.py => Main function using k-fold cross validation for final evaluation. This is used for Polarity dataset only.
-  * hmain_test.py => Main function using testing datasets for final evaluation.
-  * hutils.py => Contains all utility functions. Graphical representation functions are also present here. This is to be used for hmain_cross_val.py. Utility functions for main cross validation and test differ slightly.
-  * hutils_test.py => Contains all utility functions. Graphical representation functions are also present here. This is to be used for hmain_test.py.
-  * mlp.py => Pytorch model for Multi-layer perceptron used in AGGREGATE phase.
-  * layers.py => Pytorch model for attention mechanism and Message passing mechanism (to be used in models.py)
-  * models.py => Main Pytorch model used for training & testing.
+    * hmain_cross_val.py => Main function using k-fold cross validation for final evaluation. This is used for Polarity dataset only.
+    * hmain_test.py => Main function using testing datasets for final evaluation.
+    * hutils.py => Contains all utility functions. Graphical representation functions are also present here. This is to be used for hmain_cross_val.py. Utility functions for main cross validation and test differ slightly.
+    * hutils_test.py => Contains all utility functions. Graphical representation functions are also present here. This is to be used for hmain_test.py.
+    * mlp.py => Pytorch model for Multi-layer perceptron used in AGGREGATE phase.
+    * layers.py => Pytorch model for attention mechanism and Message passing mechanism (to be used in models.py)
+    * models.py => Main Pytorch model used for training & testing.
   
   
 ## Execution
@@ -54,5 +54,5 @@ Markup:
 
 ## References
 Markup:
-  * [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
-  * Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
+    * [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
+    * Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
