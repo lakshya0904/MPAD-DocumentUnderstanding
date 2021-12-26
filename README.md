@@ -53,6 +53,10 @@ Markup:
 
 
 ## References
-Markup:
-    * [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
-    * Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
+- [Message Passing Attention Networks for Document Understanding](https://arxiv.org/pdf/1908.06267.pdf) (Paper)
+- Giannis Nikolentzos, MPAD [GitHub Repository](https://github.com/giannisnik/mpad)
+
+## Team Members:
+- Lakshya Agarwal, 2017B5A70904P
+- Naga Siva Sai Reddy, 2017B3A70779P
+- Rahul Poddar, 2017B3A70746P
